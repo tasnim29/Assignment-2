@@ -14,6 +14,9 @@
 .icon-container {
   display: none;
 }
+.bg-image {
+  background-image: url(../assets/bg.png);
+}
 
 /* navbar styles */
 .navbar {
@@ -71,6 +74,7 @@
   max-width: 1158px;
   margin: 0 auto;
   gap: 70px;
+  margin-bottom: 60px;
 }
 .banner-content {
   max-width: 620px;
@@ -89,6 +93,282 @@
   padding: 10px 50px;
   font-weight: 600;
 }
+/* standard curriculum styles */
+.standard-curriculum {
+}
+.curriculum-box {
+  margin: 0 auto;
+  max-width: 1158px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+.curriculum-box .box-1 {
+  background: linear-gradient(
+    to bottom,
+    rgba(222, 245, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
+  border-radius: 18px;
+  text-align: center;
+  padding: 40px;
+}
+
+.curriculum-box .box-1 h2 {
+  margin-top: 16px;
+  font-size: 1.3rem;
+}
+.curriculum-box .box-1 p {
+  margin-top: 30px;
+  color: rgba(128, 128, 128, 1);
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.curriculum-box .box-1 button {
+  margin-top: 50px;
+  background-color: #ffffff;
+  color: rgba(100, 200, 255, 1);
+  border: none;
+  padding: 5px;
+}
+.curriculum-box .box-2 {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 244, 220, 1),
+    rgba(255, 255, 255, 0)
+  );
+  text-align: center;
+  border-radius: 18px;
+  text-align: center;
+  padding: 40px;
+}
+.curriculum-box .box-2 h2 {
+  margin-top: 30px;
+  font-size: 1.3rem;
+}
+.curriculum-box .box-2 p {
+  margin-top: 30px;
+  color: rgba(128, 128, 128, 1);
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.curriculum-box .box-2 button {
+  margin-top: 50px;
+  background-color: #ffffff;
+  color: rgba(240, 170, 0, 1);
+  border: none;
+  padding: 5px;
+}
+
+.curriculum-box .box-3 {
+  background: linear-gradient(
+    to bottom,
+    rgba(238, 225, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
+  text-align: center;
+  border-radius: 18px;
+  text-align: center;
+  padding: 40px;
+}
+.curriculum-box .box-3 h2 {
+  margin-top: 30px;
+  font-size: 1.3rem;
+}
+.curriculum-box .box-3 p {
+  margin-top: 30px;
+  color: rgba(128, 128, 128, 1);
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.curriculum-box .box-3 button {
+  margin-top: 63px;
+  background-color: #ffffff;
+  color: rgba(135, 0, 255, 1);
+  border: none;
+  padding: 5px;
+}
+.curriculum-tite {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 80px;
+}
+
+.arrow-btn {
+  margin-top: 75px;
+  text-align: center;
+}
+.arrow-btn button {
+  font-size: 24px;
+  margin-right: 5px;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: orange;
+}
+
+/* our storirs */
+.our-story {
+  margin-top: 100px;
+  background: linear-gradient(
+    to top,
+    rgba(254, 163, 1, 0.3),
+    rgba(255, 255, 255, 1)
+  );
+}
+.our-story .our-story-title {
+  text-align: center;
+  margin-bottom: 70px;
+  font-size: 2.8rem;
+}
+.stories {
+  margin: 0 auto;
+  max-width: 1160px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.story1 {
+  max-width: 540px;
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+.story1 img {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.story1 button {
+  background-color: rgba(60, 216, 232, 1);
+  padding: 12px 16px;
+  border: none;
+  border-radius: 47px;
+  color: #ffffff;
+}
+#story1-btn {
+  margin-top: -25px;
+  margin-left: 38px;
+  margin-bottom: 40px;
+}
+.story1-content {
+  padding: 30px 68px 34px 38px;
+}
+.story1-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 47px;
+}
+.story1-content p {
+  color: rgba(102, 102, 102, 1);
+  font-size: 0.8rem;
+}
+
+.small-stories {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 19px;
+}
+
+.story2 {
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+.story-2-title {
+  padding: 23px 50px 23px 38px;
+}
+.story-2-title h3 {
+  font-size: 0.9rem;
+}
+.story2 img {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.story2 button {
+  background-color: rgba(149, 178, 38, 1);
+  padding: 9px 12px;
+  border: none;
+  border-radius: 47px;
+  color: #ffffff;
+}
+#story2-btn {
+  margin-top: -25px;
+  margin-left: 38px;
+}
+.story3 {
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+.story-3-title {
+  padding: 23px 50px 23px 38px;
+}
+.story-3-title h3 {
+  font-size: 0.9rem;
+}
+.story3 img {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.story3 button {
+  background-color: rgba(93, 88, 240, 1);
+  padding: 9px 12px;
+  border: none;
+  border-radius: 47px;
+  color: #ffffff;
+}
+#story3-btn {
+  margin-top: -25px;
+  margin-left: 38px;
+}
+
+.story4 {
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+.story-4-title {
+  padding: 23px 50px 23px 38px;
+}
+.story-4-title h3 {
+  font-size: 0.9rem;
+}
+.story4 img {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.story4 button {
+  background-color: rgba(149, 178, 38, 1);
+  padding: 9px 12px;
+  border: none;
+  border-radius: 47px;
+  color: #ffffff;
+}
+#story4-btn {
+  margin-top: -25px;
+  margin-left: 38px;
+}
+.story5 {
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+.story-5-title {
+  padding: 23px 50px 23px 38px;
+}
+.story-5-title h3 {
+  font-size: 0.9rem;
+}
+.story5 img {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.story5 button {
+  background-color: rgba(149, 178, 38, 1);
+  padding: 9px 12px;
+  border: none;
+  border-radius: 47px;
+  color: #ffffff;
+}
+#story5-btn {
+  margin-top: -25px;
+  margin-left: 38px;
+}
 @media screen and (max-width: 576px) {
   /* nav */
   .navbar .nav-item,
@@ -98,10 +378,15 @@
   }
   .icon-container {
     display: inline-block;
+    align-content: center;
   }
 
   .navbar {
     padding: 0 20px;
+    border-bottom: 1px solid orange;
+  }
+  .navbar {
+    padding-bottom: 10px;
   }
 
   /* banner */
