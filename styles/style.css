@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* navbar styles */
+.navbar {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar {
+  margin-top: 30px;
+}
+.school-logo {
+  display: flex;
+}
+
+.school-logo .school h2 {
+  font-size: 2rem;
+  color: black;
+}
+.school-logo .school {
+  align-content: center;
+}
+.nav-links {
+  display: flex;
+}
+.nav-item {
+  font-weight: bold;
+  font-size: 1.1rem;
+  list-style: none;
+  margin-right: 30px;
+}
+.orange-item {
+  color: orange;
+}
+.sky-blue {
+  color: skyblue;
+}
+.light-sky {
+  color: rgba(5, 212, 223, 1);
+}
+.purple {
+  color: rgba(93, 88, 239, 1);
+}
+.nav-button button {
+  background-color: orange;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 50px;
+  font-weight: 600;
+}
+/* banner styles */
+.banner {
+  display: flex;
+  max-width: 1158px;
+  margin: 0 auto;
+  gap: 70px;
+}
+.banner-content {
+  max-width: 620px;
+  align-content: center;
+}
+.banner-title {
+  font-size: 3.2rem;
+  margin-bottom: 21px;
+}
+.banner-content button {
+  margin-top: 21px;
+  background-color: black;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 50px;
+  font-weight: 600;
+}
