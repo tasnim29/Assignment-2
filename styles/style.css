@@ -369,6 +369,19 @@
   margin-top: -25px;
   margin-left: 38px;
 }
+.view-all {
+  margin-top: 80px;
+  text-align: center;
+}
+.view-all button {
+  margin-top: 21px;
+  background-color: black;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 52px;
+  font-weight: 600;
+}
 @media screen and (max-width: 576px) {
   /* nav */
   .navbar .nav-item,
