@@ -94,8 +94,7 @@
   font-weight: 600;
 }
 /* standard curriculum styles */
-.standard-curriculum {
-}
+
 .curriculum-box {
   margin: 0 auto;
   max-width: 1158px;
@@ -109,7 +108,9 @@
     rgba(222, 245, 255, 1),
     rgba(255, 255, 255, 0)
   );
+  border: 1px solid rgba(222, 245, 255, 1);
   border-radius: 18px;
+  box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.09);
   text-align: center;
   padding: 40px;
 }
@@ -137,6 +138,8 @@
     rgba(255, 244, 220, 1),
     rgba(255, 255, 255, 0)
   );
+  border: 1px solid rgba(255, 244, 220, 1);
+  box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.09);
   text-align: center;
   border-radius: 18px;
   text-align: center;
@@ -167,6 +170,8 @@
     rgba(255, 255, 255, 0)
   );
   text-align: center;
+  border: 1px solid rgba(242, 232, 255, 1);
+  box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.09);
   border-radius: 18px;
   text-align: center;
   padding: 40px;
@@ -190,7 +195,7 @@
 }
 .curriculum-tite {
   text-align: center;
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   margin-bottom: 80px;
 }
 
@@ -224,6 +229,7 @@
   font-size: 2.8rem;
 }
 .stories {
+  justify-items: center;
   margin: 0 auto;
   max-width: 1160px;
   display: grid;
@@ -269,6 +275,7 @@
 }
 
 .story2 {
+  max-width: 295px;
   background-color: #ffffff;
   border-radius: 16px;
 }
@@ -281,6 +288,8 @@
 .story2 img {
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
+  height: 100%;
+  width: 100%;
 }
 .story2 button {
   background-color: rgba(149, 178, 38, 1);
@@ -294,6 +303,7 @@
   margin-left: 38px;
 }
 .story3 {
+  max-width: 295px;
   background-color: #ffffff;
   border-radius: 16px;
 }
@@ -306,6 +316,8 @@
 .story3 img {
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
+  height: 100%;
+  width: 100%;
 }
 .story3 button {
   background-color: rgba(93, 88, 240, 1);
@@ -320,6 +332,7 @@
 }
 
 .story4 {
+  max-width: 295px;
   background-color: #ffffff;
   border-radius: 16px;
 }
@@ -330,6 +343,8 @@
   font-size: 0.9rem;
 }
 .story4 img {
+  height: 100%;
+  width: 100%;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
 }
@@ -345,6 +360,7 @@
   margin-left: 38px;
 }
 .story5 {
+  max-width: 295px;
   background-color: #ffffff;
   border-radius: 16px;
 }
@@ -357,6 +373,8 @@
 .story5 img {
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
+  height: 100%;
+  width: 100%;
 }
 .story5 button {
   background-color: rgba(149, 178, 38, 1);
@@ -381,14 +399,75 @@
   border-radius: 12px;
   padding: 12px 52px;
   font-weight: 600;
+  margin-bottom: 60px;
+}
+/* footer section */
+footer {
+  background-color: rgba(1, 172, 253, 1);
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+  justify-items: center;
+  padding: 100px;
+}
+
+.footer-content {
+  display: flex;
+  margin-bottom: 35px;
+  gap: 5px;
+}
+.footer-content h2 {
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+.kids-edu p {
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+/* .abt-scl {
+  margin-left: 50px;
+} */
+.abt-scl p {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.footer-links {
+  margin-top: 20px;
+}
+.footer-item {
+  list-style: none;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+.in-touch p {
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* marquee style */
+.marquee {
+  margin-top: 40px;
+  font-weight: bold;
+  background: linear-gradient(to right, #e0f7fa, #b3e5fc, gray);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 51, 102, 0.2);
 }
 @media screen and (max-width: 576px) {
   /* nav */
   .navbar .nav-item,
   .Contact,
-  .school {
+  .school,
+  .arrow-btn,
+  .story1 {
     display: none;
   }
+
   .icon-container {
     display: inline-block;
     align-content: center;
@@ -409,5 +488,20 @@
   }
   .banner-content {
     text-align: center;
+  }
+  .curriculum-box {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 20px;
+  }
+  .our-story {
+    padding: 0 20px;
+  }
+  .our-story .small-stories img {
+    object-fit: cover;
+  }
+  /* footer */
+  .footer-container {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: left;
   }
 }
