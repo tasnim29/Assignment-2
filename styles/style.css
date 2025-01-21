@@ -275,7 +275,6 @@
 }
 
 .story2 {
-  max-width: 295px;
   background-color: #ffffff;
   border-radius: 16px;
 }
@@ -303,7 +302,6 @@
   margin-left: 38px;
 }
 .story3 {
-  max-width: 295px;
   background-color: #ffffff;
   border-radius: 16px;
 }
@@ -332,7 +330,6 @@
 }
 
 .story4 {
-  max-width: 295px;
   background-color: #ffffff;
   border-radius: 16px;
 }
@@ -360,7 +357,6 @@
   margin-left: 38px;
 }
 .story5 {
-  max-width: 295px;
   background-color: #ffffff;
   border-radius: 16px;
 }
@@ -493,12 +489,11 @@ footer {
     grid-template-columns: repeat(1, 1fr);
     padding: 0 20px;
   }
+  /* story */
   .our-story {
     padding: 0 20px;
   }
-  .our-story .small-stories img {
-    object-fit: cover;
-  }
+
   /* footer */
   .footer-container {
     grid-template-columns: repeat(1, 1fr);
