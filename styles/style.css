@@ -109,7 +109,7 @@
   background: linear-gradient(
     to bottom,
     rgba(222, 245, 255, 1),
-    rgba(255, 255, 255, 0)
+    rgba(255, 255, 255, 1)
   );
   border: 1px solid rgba(222, 245, 255, 1);
   border-radius: 18px;
@@ -139,7 +139,7 @@
   background: linear-gradient(
     to bottom,
     rgba(255, 244, 220, 1),
-    rgba(255, 255, 255, 0)
+    rgba(255, 255, 255, 1)
   );
   border: 1px solid rgba(255, 244, 220, 1);
   box-shadow: 0 0 28px 0.94px rgba(0, 0, 0, 0.09);
@@ -170,7 +170,7 @@
   background: linear-gradient(
     to bottom,
     rgba(238, 225, 255, 1),
-    rgba(255, 255, 255, 0)
+    rgba(255, 255, 255, 1)
   );
   text-align: center;
   border: 1px solid rgba(242, 232, 255, 1);
@@ -218,9 +218,7 @@
 }
 
 /* our storirs */
-.stories {
-  background-image: url("../assets/bg.png");
-}
+
 .our-story {
   margin-top: 100px;
   background: linear-gradient(
@@ -499,6 +497,9 @@ footer {
   .our-story {
     padding: 0 20px;
   }
+  .stories {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
   /* footer */
   .footer {
@@ -508,8 +509,5 @@ footer {
     margin: 0;
     grid-template-columns: repeat(1, 1fr);
     justify-items: left;
-  }
-  .stories {
-    grid-template-columns: repeat(1, 1fr);
   }
 }
