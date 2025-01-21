@@ -94,6 +94,9 @@
   font-weight: 600;
 }
 /* standard curriculum styles */
+.standard-curriculum {
+  background-image: url(../assets/bg.png);
+}
 
 .curriculum-box {
   margin: 0 auto;
@@ -215,6 +218,9 @@
 }
 
 /* our storirs */
+.stories {
+  background-image: url("../assets/bg.png");
+}
 .our-story {
   margin-top: 100px;
   background: linear-gradient(
@@ -495,7 +501,11 @@ footer {
   }
 
   /* footer */
+  .footer {
+    margin: 0;
+  }
   .footer-container {
+    margin: 0;
     grid-template-columns: repeat(1, 1fr);
     justify-items: left;
   }
